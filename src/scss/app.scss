@@ -4,6 +4,9 @@
 /* Core variables */
 @import "base/vars";
 
+map-get($widget-sizes, "small")
+map-get($widget-sizes, "large")
+
 /* CSS Reset */
 @import "base/reset";
 
@@ -33,6 +36,9 @@ html {
     .hot {
       color: orangered;
       font-weight: bold;
+      
     }
   }
 }
+
+
