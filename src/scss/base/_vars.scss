@@ -4,12 +4,6 @@
 
 $primary: #0c4bfa;
 
-$size: 80px;
-
-@each $size in $sizes {
-  * {
-    font-size: $size;
-    height: $size;
-    width: $size;
-  }
-}
+$widget-sizes: ("small": 600px, "normal": 768px, "large": 1200px)
+map-get($widget-sizes, "small")
+map-get($widget-sizes, "large")
