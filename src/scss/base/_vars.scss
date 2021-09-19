@@ -3,3 +3,13 @@
 */
 
 $primary: #0c4bfa;
+
+$size: 80px;
+
+@each $size in $sizes {
+  * {
+    font-size: $size;
+    height: $size;
+    width: $size;
+  }
+}
